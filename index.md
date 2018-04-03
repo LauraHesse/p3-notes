@@ -1,10 +1,34 @@
-## Welcome to GitHub Pages
+## Conditionals
 
-You can use the [editor on GitHub](https://github.com/LauraHesse/p3-notes/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Main goal by writing code is to SOLVE a PROBLEM.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### If...else statements
 
-### Markdown
+`var musicians = -1;
+
+if( musicians <= 0) {
+    console.log("not a group");
+} else if ( musicians === 1 ){
+    console.log("solo");
+} else if ( musicians === 2 ){
+    console.log("duet");
+} else if ( musicians === 3 ){
+    console.log("trio");
+} else if ( musicians === 4 ){
+    console.log("quartet");
+} else {
+    console.log("this is a large group");
+}`
+
+### Logical Operators
+
+`var colt = "not busy";
+var weather = "nice";
+
+if (colt === "not busy" && weather === "nice") {
+  console.log("go to the park");
+}`
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
